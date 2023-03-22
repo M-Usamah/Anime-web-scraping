@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 # 01 connecting the request
-page = requests.get('https://www12.9anime.to/home')
+page = requests.get('https://www.9anime.to/home')
 soup = BeautifulSoup(page.content, 'html.parser')
 # testing the connexction
 # print(page)
